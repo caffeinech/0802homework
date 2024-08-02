@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* border的簡介 */
+.text {
+    /* border: 1px solid #7F9183; */
+    width: 1196px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 96px;
+    justify-content: space-between;
+}
+
+.textbox {
+    width: 342px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textbox p {
+    font-size: 20px;
+}
+
+.textbox h2 {
+    color: #A70000;
+    font-size: 30px;
+}
+
+.slogan {
+    text-align: center;
+    background-color: #A70000;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.slogan h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.recommend h2 {
+    font-size: 30px;
+    color: #07B72E;
+    text-align: center;
+}
+
+.recommendContent {
+    width: 1196px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentBox {
+    width: 360px;
+    padding: 14px;
+    padding-top: 22px;
+    /* Box Shadow背景陰影 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.095);
+    text-align: center;
+    margin-right: 26px;
+    margin-left: 26px;
+
+}
+
+.contentBox img {
+    width: 75%;
+
+}
+
+.contentBox h3 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.contentBox .description {
+    color: #21A4CE;
+    font-size: 16px;
+    text-align: left;
+}
+
+.contentBox p {
+    color: gray;
+    text-align: left;
+}
+
+.contentBox .number {
+    text-align: center;
+}
+
+.contentBox .number span {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contentBox s {
+    font-size: 20px;
+}
+
+.contentBox .clicked a {
+    text-decoration: none;
+    background-color: #A70000;
+    color: white;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+/* 在做hover前:動作指定 */
+.contentBox .clicked a:hover {
+    background-color: #5f0404;
+}
+
+.copyright {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: #989898;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    margin-top: 111px;
+}
+
+@media (max-width:639px) {
+    #wrap {
+        width: 100%px;
+        margin: auto;
+    }
+
+    .text {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .textbox {
+        margin: auto;
+    }
+
+    .recommendContent {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .contentBox {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .copyright {
+        font-size: smaller;
+    }
+}
+
+@media (min-width:640px) and (max-width:1119px) {
+
+    .text {
+        width: 80%;
+    }
+
+    .recommendContent {
+        width: 80%
+    }
+
+    .contentBox {
+        width: 80%;
+        margin-right: 10px;
+    }
+}
